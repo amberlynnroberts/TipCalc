@@ -1,0 +1,17 @@
+div p {
+  color: red;
+  font-style: italic;
+}
+
+button {
+    margin: 25px 0;
+    float: inherit
+}
+
+div {
+    text-align: center;
+}
+
+.tipForm {
+    background-color: bisque;
+}

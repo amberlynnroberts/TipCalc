@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+    <meta charset="utf-8">
+        <script type="text/javascript" src="tip_calculator.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="tip_calculator.css">
+    </head>
+    <body>
+        <div class="tipForm">
+        <div>
+            <h4>Total Amount</h4>
+            <input id="total" type="text" placeholder="Total amount to pay">
+            <p id="warning1"></p>
+        </div>
+        
+        <div>
+        <h4>Total Person</h4>
+            <input id="person" type="text" placeholder="Total number per person">
+            <p id="warning2"></p>
+        </div>
+        
+        <div>
+        <h4>Tip</h4>
+        <select id="tip">
+            <option value="0.3">Outstanding - 30%</option>
+            <option value="0.2">Good - 20%</option>
+            <option value="0.1">Okay - 10%</option>
+            <option value="0.05">Bad - 5%</option>
+        </select>
+        </div>
+        <div>
+        <button onClick="tipCal()" type="button" name="Submit">Submit</button>        
+        </div>
+        </div>
+    </body>
+</html>
